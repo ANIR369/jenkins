@@ -1,0 +1,17 @@
+pipeline{
+agent any
+stages{
+stage('Clone') {
+steps{
+git url:https://github.com/ANIR369/jenkins.git
+  branch:'main'
+}
+}
+  stage('Run Script'){
+    steps{
+      sh'chmod x Script.sh'
+      sh'./Script.sh'
+    }
+  }
+}
+}
