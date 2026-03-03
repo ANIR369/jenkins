@@ -1,3 +1,3 @@
 #!/bin/bash
-echo"hello from github project!"
-echo"CI/CD pipeline successfully"
+echo "Hello from GitHub project!"
+echo "CI/CD pipeline successfully"
